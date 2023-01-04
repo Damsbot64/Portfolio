@@ -48,10 +48,7 @@ function ConicGradientBorder() {
 
   return (
     <div className="background h-screen flex justify-center items-center ">
-      <Card ref={cardRef}>
-        <h1>HELLO WORLD</h1>
-        <Cursor />
-      </Card>
+      <Card ref={cardRef}></Card>
     </div>
   );
 }
